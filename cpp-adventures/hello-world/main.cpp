@@ -260,8 +260,6 @@ int main() {
 	TicTacBoardLogic board;
 	GameUI UI('x', 'o', board.getAmountOfPositions());
 
-	PlayerId output = board.getCurrentPlayerPlaying();
-
 	bool gameRunning = true;
 
 	while (gameRunning && board.getGameState() == 0) {
